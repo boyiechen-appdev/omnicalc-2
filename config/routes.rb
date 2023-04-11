@@ -9,19 +9,19 @@ Rails.application.routes.draw do
 
   # substraction
   ## form
-  get("add", { :controller => "application", :action => "substract" })
+  get("subtract", { :controller => "application", :action => "subtract" })
   ## result
-  get("wizard_add", { :controller => "application", :action => "wizard_substract" })
+  get("wizard_subtract", { :controller => "application", :action => "wizard_subtract" })
 
   # multiplication
   ## form
-  get("add", { :controller => "application", :action => "multiply" })
+  get("multiply", { :controller => "application", :action => "multiply" })
   ## result
-  get("wizard_add", { :controller => "application", :action => "wizard_multiply" })
+  get("wizard_multiply", { :controller => "application", :action => "wizard_multiply" })
 
   # division
   ## form
-  get("add", { :controller => "application", :action => "divide" })
+  get("divide", { :controller => "application", :action => "divide" })
   ## result
-  get("wizard_add", { :controller => "application", :action => "wizard_divide" })
+  get("wizard_divide", { :controller => "application", :action => "wizard_divide" })
 end
